@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>
+            Youtube Looper
+        </title>
+
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+
+    <body>
+
+        <h1>Task List:</h1>
+        <ul>
+            <li>Make CSS</li>
+            <li>Make JS</li>
+            <li>Integrate Youtube</li>
+        </ul>
+
+        <div>
+
+            <label for="text1">Paste the Youtube Link here:</label>
+            <input type="text" id="text1">
+
+
+            <button class="btn" onclick="buttonPress()">Go</button>
+
+        </div>
+
+        <h1 id="test"></h1>
+        <iframe id='vid' width="560" height="315" src="https://www.youtube-nocookie.com/embed/uKFt7-VISYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1 id="test2"></h1>
+
+        <div>
+
+            <label for="text2">Loop Start:</label>
+            <input type="text2" id="text2">
+            <label for="text3">Loop End:</label>
+            <input type="text3" id="text3">
+
+
+            <button class="btn2" onclick="buttonPress2()">Loop!</button>
+
+        </div>
+
+        <script src="app.js"></script>
+        <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+    </body>
+
+</html>
